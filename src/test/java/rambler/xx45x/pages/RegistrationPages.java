@@ -12,7 +12,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class RegistrationPages {
-    static SelenideElement
+    private final SelenideElement
             firstNameInput = $( "#firstName");
     SelenideElement lastNameInput = $( "#lastName");
     SelenideElement userEmailInput = $("#userEmail");
@@ -67,7 +67,7 @@ public class RegistrationPages {
         return this;
     }
     public RegistrationPages hobbiesWrapper (String value) {
-        hobbiesWrapperInput.$(byText("Sports")).click();
+        hobbiesWrapperInput.$(byText(value)).click();
         return this;
     }
     public RegistrationPages addFile () {
@@ -80,11 +80,11 @@ public class RegistrationPages {
         return this;
     }
     public RegistrationPages state (String value) {
-        stateInput.setValue("Haryana").pressEnter();
+        stateInput.setValue(value).pressEnter();
         return this;
     }
     public RegistrationPages stateCity (String value) {
-        stateCityInput.setValue("Karnal").pressEnter();
+        stateCityInput.setValue(value).pressEnter();
         return this;
     }
     public RegistrationPages typeSubmitButton() {
