@@ -1,7 +1,7 @@
-package rambler.xx45x.pages;
+package rambler.xx45x.tests;
 
 import com.codeborne.selenide.SelenideElement;
-import rambler.xx45x.pages.components.CalendarComponent;
+import rambler.xx45x.components.CalendarComponent;
 
 import java.io.File;
 

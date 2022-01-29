@@ -1,4 +1,4 @@
-package rambler.xx45x.pages;
+package rambler.xx45x.tests;
 
 import com.codeborne.selenide.Configuration;
 import com.github.javafaker.Faker;

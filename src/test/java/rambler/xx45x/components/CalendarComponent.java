@@ -1,4 +1,4 @@
-package rambler.xx45x.pages.components;
+package rambler.xx45x.components;
 
 import static com.codeborne.selenide.Selenide.$;
 import static java.lang.String.format;

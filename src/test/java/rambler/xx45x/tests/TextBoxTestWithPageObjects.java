@@ -1,10 +1,9 @@
-package rambler.xx45x.javaFaker;
+package rambler.xx45x.tests;
 
 import com.codeborne.selenide.Configuration;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import rambler.xx45x.pages.RegistrationPages;
 
 
 public class TextBoxTestWithPageObjects {
