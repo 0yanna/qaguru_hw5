@@ -100,5 +100,4 @@ public class RegistrationPages {
                 .parent().shouldHave(text(value));
         return this;
     }
-
 }

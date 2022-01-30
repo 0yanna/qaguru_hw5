@@ -17,7 +17,6 @@ public class TextBoxTestWithJavaFaker {
     String userPhone = faker.phoneNumber().subscriberNumber(10);
     String currentAddress = faker.address().fullAddress();
 
-
     @BeforeAll
     static void setUp() {
         Configuration.browserSize = "1920x1152";
